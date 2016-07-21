@@ -1,5 +1,5 @@
 /**
- * Created by Raphael on 2016/7/16.
+ * Created by Jin on 2016/7/16.
  */
 const gulp = require('gulp'),
   gutil = require('gulp-util'),
@@ -26,7 +26,8 @@ let pkg = require('./package.json'),
   config;
 
 function getOSSUrl(name, env, version) {
-  return isUseCDN ? `//carkey-cdn.oss-cn-hangzhou.aliyuncs.com/${name}/${env}/${version}` : '';
+  /*return isUseCDN ? `//carkey-cdn.oss-cn-hangzhou.aliyuncs.com/${name}/${env}/${version}` : '';*/
+  return ''
 }
 
 gulp.task('config', function () {

@@ -1,5 +1,5 @@
 /**
- * Created by Raphael on 2016/7/16.
+ * Created by Jin on 2016/7/16.
  */
 /**
  * @author: @AngularClass
@@ -123,6 +123,7 @@ module.exports = webpackMerge(commonConfig, {
     // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
+      chunks: ['main'],
       minChunks: function (module, count) {
         // any required modules inside node_modules are extracted to vendor
         return (
