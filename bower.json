@@ -1,0 +1,24 @@
+{
+  "name": "jin-blog",
+  "description": "my blog build with angular1.5.x, webpack..",
+  "main": "main.js",
+  "authors": [
+    "Jin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Jin-Blog"
+  ],
+  "homepage": "https://github.com/tickluo/Jin-Blog",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./src/bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "rxjs": "^4.1.0"
+  }
+}
